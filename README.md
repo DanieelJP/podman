@@ -1,4 +1,4 @@
-# podman installation wordpress & mysql
+# Podman installation wordpress & mysql
 
 
 ## 1. Instalación de Podman
@@ -206,3 +206,5 @@ Ponemos esta dirección en el navegador:
 ```bash
 http://localhost:8080
 ````
+
+Tutorial made by DJparreño 
