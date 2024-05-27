@@ -159,6 +159,13 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'root';
 CREATE DATABASE wordpress;
 FLUSH PRIVILEGES;
 ```
+Salimos:
+```bash
+exit
+```
+```bash
+exit
+```
 ## 12. Guardar la configuración de MySQL
 Guarda el estado actual del contenedor de MySQL:
 ```bash
@@ -183,6 +190,10 @@ define( 'DB_NAME', 'wordpress' );
 define( 'DB_USER', 'root' );
 define( 'DB_PASSWORD', 'root' );
 define( 'DB_HOST', '127.0.0.1' );
+```
+Salimos:
+```bash
+exit
 ```
 ## 14. Reiniciar los contenedores
 Reinicia los contenedores para aplicar los cambios:
